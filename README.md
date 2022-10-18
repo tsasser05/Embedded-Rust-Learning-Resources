@@ -16,7 +16,7 @@ I currently have a NUCLEO-f030R8 board.  I will be getting a bbc micro:bit v2 so
 * [The Embedded Rust Book](https://docs.rust-embedded.org/book/intro/index.html)
 * [Discovery Rust Book](https://docs.rust-embedded.org/discovery/)
 * [The Debugonomicon](https://github.com/rust-embedded/debugonomicon)
-* [Rust Toolchain Installer(https://rustup.rs/)
+* [Rust Toolchain Installer](https://rustup.rs/)
 
 Review Sayapin's instructions.  
 
