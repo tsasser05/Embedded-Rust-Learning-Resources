@@ -5,13 +5,13 @@ ample resources are available.  This page will serve as a basic aggregation poin
 
 I currently have a NUCLEO-f030R8 board.  I will be getting a bbc micro:bit v2 soon.  I will focus first upon the NUCLEO-f030R8 board and then work with the micro:bit board per the Rust documentation.
 
-## Embedded Rust for NUCLEO-f030R8
+# Embedded Rust for NUCLEO-f030R8
 
 * Source site:  [Alexander Sayapin's Tutorial](https://alstutor.work/nucleo-f030r8-embedded-rust-quick-start-tutorial-part-1.html)
 * Board:  [NUCLEO-f030R8 Board](https://www.st.com/en/evaluation-tools/nucleo-f030r8.html)
 * IDE:  [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 
-### Resources:
+## Resources:
 
 * [The Embedded Rust Book](https://docs.rust-embedded.org/book/intro/index.html)
 * [Discovery Rust Book](https://docs.rust-embedded.org/discovery/)
@@ -20,7 +20,7 @@ I currently have a NUCLEO-f030R8 board.  I will be getting a bbc micro:bit v2 so
 
 Review Sayapin's instructions.  
 
-### For the Impatient:
+## For the Impatient:
 
 Install Rust and rustup.  There are several ways to do this.  I used brew since I am using OS X.  Additionally, I installed extensions into VS Code (rust-analyzer) and it may not be the correct way to go.  I will figure this out soon and update this page.
 
@@ -53,8 +53,8 @@ Install itmdump
 cargo install itm
 ```
 
-### Installgdb, openocd, qemu, screen
-#### **Linux:**
+## Installgdb, openocd, qemu, screen
+### Linux:
 ```
 sudo apt install gdb-arm-none-eabi openocd screen qemu-system-arm
 
@@ -87,7 +87,7 @@ openocd -f interface/stlink-v2-1.cfg -f target/stm32f0x.cfg
 ```
 
 
-### **OS X:** (check this -- was from another tutorial.  May need to find gdb package for OS X)
+### OS X: (check this -- was from another tutorial.  May need to find gdb package for OS X)
 ```
 brew install qemu openocd armmbed/formulae/arm-none-eabi-gcc
 ```
