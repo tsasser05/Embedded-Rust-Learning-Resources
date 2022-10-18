@@ -22,7 +22,7 @@ Review Sayapin's instructions.
 
 ### For the Impatient:
 
-Install Rust and rustup.  There are several ways to do this.  I installed extensions into VS Code (rust-analyzer) and it may not be the correct way to go.  I will figure this out soon and update this page.
+Install Rust and rustup.  There are several ways to do this.  I used brew since I am using OS X.  Additionally, I installed extensions into VS Code (rust-analyzer) and it may not be the correct way to go.  I will figure this out soon and update this page.
 
 
 
