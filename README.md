@@ -54,7 +54,7 @@ cargo install itm
 ```
 
 ### Installgdb, openocd, qemu, screen
-#### Linux:
+#### **Linux:**
 ```
 sudo apt install gdb-arm-none-eabi openocd screen qemu-system-arm
 
@@ -87,7 +87,7 @@ openocd -f interface/stlink-v2-1.cfg -f target/stm32f0x.cfg
 ```
 
 
-### OS X: (check this -- was from another tutorial.  May need to find gdb package for OS X)
+### **OS X:** (check this -- was from another tutorial.  May need to find gdb package for OS X)
 ```
 brew install qemu openocd armmbed/formulae/arm-none-eabi-gcc
 ```
