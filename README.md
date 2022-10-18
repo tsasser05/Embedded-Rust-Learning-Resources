@@ -1,4 +1,4 @@
-# Embedded-Rust-Learning-Resources
+# Embedded Rust Learning Resources
 
 Embedded Rust is a new phenomenon at the time of this writing.  Fortunately, for those who want to learn how to do it, 
 ample resources are available.  This page will serve as a basic aggregation point for learning how to do embedded programming with Rust.
@@ -7,22 +7,24 @@ I currently have a NUCLEO-f030R8 board.  I will be getting a bbc micro:bit v2 so
 
 ## Embedded Rust for NUCLEO-f030R8
 
-Source site:  [Alexander Sayapin's Tutorial](https://alstutor.work/nucleo-f030r8-embedded-rust-quick-start-tutorial-part-1.html)
-Board:  [NUCLEO-f030R8 Board](https://www.st.com/en/evaluation-tools/nucleo-f030r8.html)
-IDE:  [Microsoft Visual Studio Code](https://code.visualstudio.com/)
+* Source site:  [Alexander Sayapin's Tutorial](https://alstutor.work/nucleo-f030r8-embedded-rust-quick-start-tutorial-part-1.html)
+* Board:  [NUCLEO-f030R8 Board](https://www.st.com/en/evaluation-tools/nucleo-f030r8.html)
+* IDE:  [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 
 ### Resources:
 
-[The Embedded Rust Book](https://docs.rust-embedded.org/book/intro/index.html)
-[Discovery Rust Book](https://docs.rust-embedded.org/discovery/)
-[The Debugonomicon](https://github.com/rust-embedded/debugonomicon)
-[Rust Toolchain Installer(https://rustup.rs/)
+* [The Embedded Rust Book](https://docs.rust-embedded.org/book/intro/index.html)
+* [Discovery Rust Book](https://docs.rust-embedded.org/discovery/)
+* [The Debugonomicon](https://github.com/rust-embedded/debugonomicon)
+* [Rust Toolchain Installer(https://rustup.rs/)
 
 Review Sayapin's instructions.  
 
 ### For the Impatient:
 
-Install Rust and rustup
+Install Rust and rustup.  There are several ways to do this.  I installed extensions into VS Code (rust-analyzer) and it may not be the correct way to go.  I will figure this out soon and update this page.
+
+
 
 Test Rust
 ```
@@ -117,3 +119,16 @@ Windows:
 ```
 Good luck
 ```
+
+### Create Project Templates
+
+```
+cargo install cargo-generate
+```
+
+Change directories to your git directory where you store your projects:
+```
+cargo generate --git https://github.com/rust-embedded/cortex-m-quickstart
+```
+
+Now read the rest of [Alexander Sayapin's Tutorial](https://alstutor.work/nucleo-f030r8-embedded-rust-quick-start-tutorial-part-1.html)
