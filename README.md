@@ -1,11 +1,9 @@
 # Embedded-Rust-Learning-Resources
 
 Embedded Rust is a new phenomenon at the time of this writing.  Fortunately, for those who want to learn how to do it, 
-ample resources are available.
+ample resources are available.  This page will serve as a basic aggregation point for learning how to do embedded programming with Rust.
 
-This page will serve as a basic aggregation point for learning how to do embedded programming with Rust.
-
-I currently have a NUCLEO-f030R8 board.  I will be getting a bbc micro:bit v2 soon.
+I currently have a NUCLEO-f030R8 board.  I will be getting a bbc micro:bit v2 soon.  I will focus first upon the NUCLEO-f030R8 board and then work with the micro:bit board per the Rust documentation.
 
 ## Embedded Rust for NUCLEO-f030R8
 
